@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
 }
 
+img{
+  display: block;
+}
+
 /* HEADER */
 .logo-nav{
 display: flex;
@@ -222,7 +226,6 @@ align-items: center;
 
   display: inline-flex;
   gap: 40px;
-  padding-top: px;
 }
 
 .section-two {
@@ -251,7 +254,6 @@ gap: 24px;
 .style-portfolio{
   padding-top: 120px;
   padding-bottom: 72px;
-  
 }
 
 .portfolio-list-item{
