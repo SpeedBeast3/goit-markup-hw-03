@@ -27,10 +27,12 @@ h1, h2, h3, h4, h5, h6, p {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container{
@@ -200,14 +202,19 @@ padding-bottom: 188px;
     padding-bottom: 72px;
 }
 
+.section-futures{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .futures-list{
   justify-content: space-between;
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+}
 
-  width: calc((100% - 24 * 3) /4);
+.futures-list-item{
+  width: calc((100% - 3 * 24px) / 4);
 }
  
 .title-style-three{
@@ -244,6 +251,8 @@ padding-bottom: 188px;
   align-items: center;
   justify-content: center;
   padding-top: 32px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .list-team {
@@ -252,8 +261,9 @@ padding-bottom: 188px;
   letter-spacing: 0.02em;
   color: #434455;
 
-  display: inline-flex;
-  gap: 40px;
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 3 * 24px) /4);
 }
 
 .section-two {
@@ -265,9 +275,13 @@ padding-bottom: 188px;
 .team-list-item{
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
+    margin-right: 0;
 }
 
-
+.container-list{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 
 
