@@ -22,6 +22,17 @@ h1, h2, h3, h4, h5, h6, p {
 	margin-bottom: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .container{
   width: 1158px;
   padding: 0 15px;
@@ -149,12 +160,6 @@ padding-bottom: 188px;
   margin: 0 auto;
 }
 
-/* NEW CODE */
-.futures{
-  display: none;
-}
-/* NEW CODE */
-
 .button-one-link {
   background-color: #4d5ae5;
   cursor: pointer;
@@ -164,7 +169,7 @@ padding-bottom: 188px;
   letter-spacing: 0.04em;
   font-weight: 500;
 
-  
+
   margin: 0 auto;
   display: block;
   min-width: 169px;
@@ -199,7 +204,10 @@ padding-bottom: 188px;
   justify-content: space-between;
   display: flex;
   gap: 24px;
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  width: calc((100% - 24 * 3) /4);
 }
  
 .title-style-three{
@@ -210,6 +218,8 @@ padding-bottom: 188px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
+
+    margin-bottom: 8px
 }
 
 .section-text {
