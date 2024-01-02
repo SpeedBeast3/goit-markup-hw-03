@@ -49,7 +49,7 @@ img{
   display: block;
 }
 
-/* HEADER */
+/* -----------------HEADER---------------- */
 .logo-nav{
 display: flex;
 align-items: center;
@@ -68,7 +68,6 @@ align-items: center;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   margin-right: 76px;
 }
 
@@ -89,7 +88,6 @@ align-items: center;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   display: flex;
   align-items: center;
   gap: 40px;
@@ -101,7 +99,6 @@ align-items: center;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   padding: 24px 0;
   display: block;
 }
@@ -116,7 +113,6 @@ align-items: center;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   margin-left: auto;
   align-items: center;
 }
@@ -124,7 +120,6 @@ align-items: center;
 .header-address-list{
   gap: 40px;
   display: flex;
-
 }
 
 .header-address .link {
@@ -135,10 +130,9 @@ align-items: center;
 .header-address .link:focus {
   color: #404bbf;
 }
-/* HEADER */
+/* -----------------HEADER---------------- */
 
-
-/* SECTION 1 */
+/* ----------------- SECTION-1 ---------------- */
 .first-level {
   background-color: #2e2f42;
   flex-shrink: 0;
@@ -171,7 +165,6 @@ padding-bottom: 188px;
   letter-spacing: 0.04em;
   font-weight: 500;
 
-
   margin: 0 auto;
   display: block;
   min-width: 169px;
@@ -187,9 +180,9 @@ padding-bottom: 188px;
 .button-one-link:focus {
   background-color: #404bbf;
 }
-/* SECTION 1 */
+/* -----------------SECTION-1---------------- */
 
-/* SECTION 2 */
+/* -----------------SECTION-2---------------- */
 .title-style-two {
     color:#2E2F42;
     text-align: center;
@@ -216,6 +209,8 @@ padding-bottom: 188px;
 .futures-list-item{
   width: calc((100% - 3 * 24px) / 4);
 }
+
+/* -----------------SECTION-2---------------- */
  
 .title-style-three{
     color:#2E2F42;
@@ -225,7 +220,6 @@ padding-bottom: 188px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
-
     margin-bottom: 8px;
 }
 
@@ -234,10 +228,9 @@ padding-bottom: 188px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-
   padding-top: 8px;
 }
-
+/* -----------------SECTION-3---------------- */
 .text-list{
   display: flex;
   align-items: center;
@@ -250,7 +243,6 @@ padding-bottom: 188px;
   align-items: center;
   justify-content: center;
   text-align: center;
-
   margin-bottom: 8px;
 }
 
@@ -259,8 +251,6 @@ padding-bottom: 188px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-
- 
   display: flex;
   gap: 24px;
 }
@@ -285,11 +275,9 @@ ul.list-team .team-list-item:first-child {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+/* -----------------SECTION-3---------------- */
 
-
-
-
-
+/* -----------------SECTION-4---------------- */
 .project-card{  
 display: flex;
 flex-wrap: wrap;
@@ -297,7 +285,6 @@ gap: 24px;
 
 row-gap: 48px;
 }
-
 
 ul.project-card .portfolio-list-item:first-child{
   width: calc((100% - 48px) / 3);
@@ -328,15 +315,9 @@ align-items: flex-start;
 object-fit: cover;
 width: 100%;
 }
+/* -----------------SECTION-4---------------- */
 
-
-
-
-
-
-
-
-/* FOOTER */
+/* -----------------FOOTER---------------- */
 .footer-logo-web {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -380,4 +361,4 @@ footer {
 
   max-width: 264px;
 }
-/* FOOTER */
+/* -----------------FOOTER---------------- */
