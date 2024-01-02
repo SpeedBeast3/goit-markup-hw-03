@@ -225,6 +225,8 @@ padding-bottom: 188px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
+
+    margin-bottom: 8px;
 }
 
 .section-text {
@@ -286,24 +288,36 @@ ul.list-team .team-list-item:first-child {
 
 
 
+
+
 .project-card{  
 display: flex;
 flex-wrap: wrap;
 gap: 24px;
-padding-bottom: 120px;
+
+row-gap: 48px;
+}
+
+
+ul.project-card .portfolio-list-item:first-child{
+  width: calc((100% - 48px) / 3);
 }
 
 .style-portfolio{
-  padding-top: 120px;
-  padding-bottom: 72px;
 }
 
+.app-container{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
 
+.section-app{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .portfolio-list-item{
-border: 1px solid#E7E9FC;
 background: #FFF;
-width: calc((100% - 72px) / 3);
 padding-bottom: 32px;
 flex-direction: column;
 align-items: flex-start;
@@ -313,6 +327,12 @@ align-items: flex-start;
 object-fit: cover;
 width: 100%;
 }
+
+
+
+
+
+
 
 
 /* FOOTER */
